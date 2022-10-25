@@ -16,7 +16,6 @@ Category.init(
   
       category_name: {
         type: DataTypes.INTEGER,
-        unique: true,
         allowNull: false,
       },
     },
